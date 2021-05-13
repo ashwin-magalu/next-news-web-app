@@ -7,6 +7,26 @@ const EOM = ({ employee }) => {
     <>
       <Head>
         <title>Next News - EOM</title>
+
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/ashwin-magalu/next-tutorial-for-beginners/main/public/logo.png"
+        />
+        <meta property="og:title" content="Employee Of The Month" />
+        <meta
+          property="og:description"
+          content={`This month's employee of the month is Ashwin M A`}
+        />
+
+        <meta
+          property="twitter:image"
+          content="https://raw.githubusercontent.com/ashwin-magalu/next-tutorial-for-beginners/main/public/logo.png"
+        />
+        <meta property="twitter:title" content="Employee Of The Month" />
+        <meta
+          property="twitter:description"
+          content={`This month's employee of the month is Ashwin M A`}
+        />
       </Head>
       <div className="page-container">
         <Toolbar />
